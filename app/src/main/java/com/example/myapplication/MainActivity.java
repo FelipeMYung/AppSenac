@@ -25,15 +25,15 @@ public class MainActivity extends AppCompatActivity {
         btnLinguagens.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tecnico = new Intent( getApplicationContext(), TecnicoActivity.class);
-                startActivity(tecnico);
+                Intent linguagens = new Intent( getApplicationContext(), Linguagens.class);
+                startActivity(linguagens);
             }
         });
         Button btnCN = findViewById(R.id.btnCN);
-        btnLinguagens.setOnClickListener(new View.OnClickListener() {
+        btnCN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent CN = new Intent( getApplicationContext(), TecnicoActivity.class);
+                Intent CN = new Intent( getApplicationContext(), CienciasNaturais.class);
                 startActivity(CN);
             }
         });
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         btnMat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Mat = new Intent( getApplicationContext(), TecnicoActivity.class);
+                Intent Mat = new Intent( getApplicationContext(), MatActivity.class);
                 startActivity(Mat);
             }
         });
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         btnPP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PP = new Intent( getApplicationContext(), TecnicoActivity.class);
+                Intent PP = new Intent( getApplicationContext(), PPActivity.class);
                 startActivity(PP);
             }
         });
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         btnPV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PV = new Intent( getApplicationContext(), TecnicoActivity.class);
+                Intent PV = new Intent( getApplicationContext(), PVActivity.class);
                 startActivity(PV);
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         btnCH.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent CH = new Intent( getApplicationContext(), TecnicoActivity.class);
+                Intent CH = new Intent( getApplicationContext(), CHActivity.class);
                 startActivity(CH);
             }
         });
