@@ -114,4 +114,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.108" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/senaclogo"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-18dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

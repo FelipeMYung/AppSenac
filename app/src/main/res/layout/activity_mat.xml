@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fundo"
+    android:background="@color/white"
     tools:context=".MatActivity">
 
     <ImageView
@@ -35,6 +35,8 @@
         android:id="@+id/txtMatTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
         android:text="Matemática"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,15 +46,15 @@
 
     <TextView
         android:id="@+id/txtContentMat"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="A diciplina de matemática é dada pelo professor Willian Vieira, e blablabalbala"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.204" />
+        app:layout_constraintVertical_bias="0.214" />
 
     <Button
         android:id="@+id/btnBackMat"
@@ -64,5 +66,5 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.937" />
 </androidx.constraintlayout.widget.ConstraintLayout>
