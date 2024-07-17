@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnTecnico = findViewById(R.id.btnTecnico);
+
         btnTecnico.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
