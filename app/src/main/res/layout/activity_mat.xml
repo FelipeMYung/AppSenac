@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555"
+        app:layout_constraintVertical_bias="0.728"
         app:srcCompat="@drawable/willian" />
 
     <TextView
@@ -29,15 +29,15 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.712" />
+        app:layout_constraintVertical_bias="0.841" />
 
     <TextView
         android:id="@+id/txtMatTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:textFontWeight="@integer/material_motion_duration_long_2"
         android:text="Matemática"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,15 +46,16 @@
 
     <TextView
         android:id="@+id/txtContentMat"
-        android:layout_width="250dp"
+        android:layout_width="340dp"
         android:layout_height="wrap_content"
-        android:text="A diciplina de matemática é dada pelo professor Willian Vieira, e blablabalbala"
+        android:text="A matéria de Matemática aborda conceitos fundamentais como aritmética, álgebra, geometria e estatística, visando desenvolver o raciocínio lógico e a resolução de problemas. Os alunos aprendem a aplicar fórmulas e teoremas em situações práticas, promovendo a compreensão das relações numéricas e espaciais. Além disso, a Matemática estimula a análise crítica e a capacidade de argumentação, preparando os estudantes para desafios acadêmicos e do cotidiano, tornando-os mais habilitados a tomar decisões informadas."
+        android:justificationMode="inter_word"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
+        app:layout_constraintVertical_bias="0.31" />
 
     <Button
         android:id="@+id/btnBackMat"

@@ -33,26 +33,39 @@
         app:layout_constraintVertical_bias="0.192" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.562"
-        app:srcCompat="@drawable/barbara" />
-
-    <ImageView
         android:id="@+id/imageView6"
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintHorizontal_bias="0.808"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.562"
+        app:layout_constraintVertical_bias="0.43"
         app:srcCompat="@drawable/bruno" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43"
+        app:srcCompat="@drawable/barbara" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="O projeto de vida é um plano pessoal que orienta os indivíduos na busca de seus objetivos e aspirações ao longo da vida. Ele envolve a reflexão sobre valores, interesses e metas, permitindo que as pessoas tracem um caminho claro para alcançar suas conquistas. Ao considerar aspectos como carreira, educação, relacionamentos e desenvolvimento pessoal, o projeto de vida ajuda a identificar prioridades e a tomar decisões mais assertivas. Esse planejamento não apenas proporciona um sentido de propósito, mas também promove a resiliência e a motivação para enfrentar desafios e alcançar realizações significativas."
+        android:justificationMode="inter_word"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
 </androidx.constraintlayout.widget.ConstraintLayout>

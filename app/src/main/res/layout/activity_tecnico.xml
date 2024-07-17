@@ -33,26 +33,39 @@
         app:layout_constraintVertical_bias="0.147" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.149"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518"
-        app:srcCompat="@drawable/anapaula" />
-
-    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518"
+        app:layout_constraintVertical_bias="0.347"
         app:srcCompat="@drawable/sandro" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/anapaula" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="O curso técnico em Informática Web prepara os alunos para atuar na criação e manutenção de sites e aplicações web. Ao longo do curso, os estudantes aprendem linguagens de programação, design de interfaces, desenvolvimento front-end e back-end, além de fundamentos de banco de dados e segurança da informação. A formação enfatiza tanto a parte técnica quanto a capacidade de trabalhar em equipe e resolver problemas, preparando os alunos para atender às demandas do mercado e se tornarem profissionais competentes e criativos na área de tecnologia."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
 </androidx.constraintlayout.widget.ConstraintLayout>

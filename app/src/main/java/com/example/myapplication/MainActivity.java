@@ -70,6 +70,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(CH);
             }
         });
+       Button btnSair = findViewById(R.id.btnSair);
+       btnSair.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               finish();
+               finishAffinity();
+           }
+       });
     }
 
 }

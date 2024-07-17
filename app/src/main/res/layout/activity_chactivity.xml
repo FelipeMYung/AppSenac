@@ -39,10 +39,10 @@
         android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
+        app:layout_constraintVertical_bias="0.333"
         app:srcCompat="@drawable/barbara" />
 
     <ImageView
@@ -51,9 +51,22 @@
         android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
+        app:layout_constraintVertical_bias="0.333"
         app:srcCompat="@drawable/bruno" />
+
+    <TextView
+        android:id="@+id/txtCHDesc"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="A matéria de Ciências Humanas explora as interações sociais, culturais, históricas e geográficas que moldam a sociedade. Inclui disciplinas como História, Geografia e Sociologia, promovendo uma compreensão crítica dos processos sociais e das identidades. Os alunos analisam eventos históricos, contextos geográficos e estruturas sociais, desenvolvendo habilidades de pesquisa e reflexão. Essa abordagem interdisciplinar os prepara para compreender melhor o mundo em que vivem e a importância de suas ações no contexto social e político."
+        android:justificationMode="inter_word"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
 </androidx.constraintlayout.widget.ConstraintLayout>

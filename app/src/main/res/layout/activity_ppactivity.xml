@@ -34,37 +34,50 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418"
-        app:srcCompat="@drawable/adalberto" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418"
-        app:srcCompat="@drawable/brenda" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@drawable/adalberto" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@drawable/brenda" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
         app:srcCompat="@drawable/gabrielcosta" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="O projeto profissional é uma iniciativa que permite aos alunos aplicar os conhecimentos adquiridos ao longo do curso técnico, desenvolvendo uma solução para um problema real na área de informática web. Através da identificação de necessidades, pesquisa de mercado e planejamento, os estudantes criam e implementam um site ou aplicativo utilizando diversas tecnologias. Esse processo envolve desde o desenvolvimento e testes até a apresentação dos resultados, promovendo habilidades práticas e preparando-os para os desafios do mercado de trabalho. Além disso, o projeto estimula a criatividade e o trabalho em equipe, fundamentais na profissão.    "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
 </androidx.constraintlayout.widget.ConstraintLayout>
